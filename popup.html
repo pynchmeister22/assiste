@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mongtro</title>
+  <link rel="stylesheet" href="popupStyle.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Loading View -->
+    <div id="loadingView" class="view">
+      <div class="loading-container">
+        <div class="loading-spinner"></div>
+        <p id="loadingStatus">Loading…</p>
+      </div>
+    </div>
+
+    <!-- Session Creation View -->
+    <div id="sessionView" class="view hidden">
+      <h3>Create Interview Session</h3>
+      <div class="form-group">
+        <label for="resumeSelect">Select Resume:</label>
+        <select id="resumeSelect">
+          <option value="">Loading resumes...</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="jobDescription">Job Description:</label>
+        <textarea id="jobDescription" placeholder="Paste the job description here..." rows="6"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="additionalInfo">Additional Information (Optional):</label>
+        <textarea id="additionalInfo" placeholder="e.g., Interview type (technical, behavioral, HR), specific topics to focus on, communication style preferences, or any other guidance for the assistant..." rows="4"></textarea>
+        <div class="field-hint">Help the assistant understand the context of your interview</div>
+      </div>
+      <button id="createSessionButton">Start Interview</button>
+      <button id="clearSessionButton" class="secondary">Clear saved session</button>
+    </div>
+  </div>
+  <script src="config.js"></script>
+  <script src="utils/crypto.js"></script>
+  <script src="authService.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

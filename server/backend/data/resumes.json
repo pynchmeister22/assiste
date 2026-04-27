@@ -1,0 +1,135 @@
+[
+  {
+    "_id": "551f1643-2ebf-408f-b65f-4aca4581409f",
+    "userId": "934865b6-16db-4f10-afde-7ae14dc0dca4",
+    "title": "John Guerrero – AI/ML Engineer",
+    "name": "John Guerrero",
+    "email": "smartai0615@gmail.com",
+    "phone": "+46790081784",
+    "personal_info": {
+      "location": "Stockholm, Sweden"
+    },
+    "experience": [
+      {
+        "position": "AI/ML Engineer",
+        "company": "SoluLab",
+        "duration": "01/2023 – Present",
+        "description": "Implemented workflow for a Crypto Trading AI Multi-Agent and integrated real-time data pipeline and building an ensemble forecasting system with LSTM, Prophet, and ARIMA, along with ensemble model for risk assessment.\nEngineered a end to end RAG-MCP pipeline for a DeFi Risk Agent, enabling real-time estimation of Ethereum wallet risk by integrating transaction history, balances, and multi-protocol active positions.\nMigrated a legacy monolithic web-scraping pipeline to a microservices architecture using AWS SNS/SQS, Lambda, ECS, and Fargate-significantly improving reliability, scaling behavior, and parallel ingestion throughput.\nUtilized LangChain, LangGraph, and several LLMs to power agent reasoning, planning, and tool execution, ensuring robustness and adaptability under changing conditions.\nBuilt a reinforcement learning trading environment using OpenAI Gym, applying Direct Preference Optimization (DPO) to refine model behavior and boost decision accuracy in LLM-driven agents.\nEvaluated RAG pipeline performance using RAGAS and implemented A/B testing for online evaluation, enabling continuous improvement of retrieval quality and generation fidelity.\nLeveraged AWS SageMaker, Lambda, and Step Functions for scalable ML training and deployment, ensuring reproducible workflows, low-latency inference, and automated pipeline orchestration."
+      },
+      {
+        "position": "Data Engineer / Software Engineer",
+        "company": "Andersen Lab",
+        "duration": "08/2020 – 12/2022",
+        "description": "Architected and implemented large-scale ETL/ELT data pipelines for ingestion, transformation, and enrichment of multi-source datasets, powering downstream machine learning models and analytics platforms.\nDesigned scalable data storage and processing solutions using AWS EC2, RDS, Redshift, S3, and Glue, ensuring high availability, cost efficiency, and optimized query performance for batch and streaming workloads.\nDeveloped and optimized RESTful APIs in Python, enabling seamless interaction between microservices, data pipelines, and real-time processing systems.\nCollaborated closely with data scientists to productionize machine learning models, building feature pipelines, model-serving endpoints, and monitoring workflows to support data-driven decision-making.\nLed legacy system modernization efforts, migrating on-premise data infrastructure to cloud-native architectures using Docker and Kubernetes for containerization, orchestration, and autoscaling.\nImplemented advanced data analytics and statistical techniques (PCA, feature normalization, correlation analysis, hypothesis testing) to support dimensionality reduction, anomaly detection, and feature engineering in ML workflows.\nBuilt interactive data visualizations and dashboards using Tableau, Power BI, and Python (Plotly/ Matplotlib), translating complex data patterns into actionable insights for business stakeholders."
+      },
+      {
+        "position": "Software Engineer",
+        "company": "Archr",
+        "duration": "07/2019 – 07/2020",
+        "description": "Led the development of Archr's sustainability scoring SaaS platform end-to-end, building a production UI (React.js) and backend services (Python/Fast API) used by commercial brands.\nDesigned a distributed microservices architecture using Docker Kubernetes, enabling scalable ingestion of product data and parallel execution of sustainability scoring models.\nImplemented CI/CD pipelines using Cloud Build + GKE, reducing deployment friction and accelerating feature delivery velocity.\nIntegrated core GCP services for production workloads:\nCloud Storage as primary data lake for ingestion artifacts and LCA datasets\nCloud Functions for compute triggers and event-based batch workflows\nCloud SQL (PostgreSQL) for transactional storage and metadata retrieval\nDeveloped a full sustainability scoring pipeline with normalization logic, LCA-based metrics, and internal scoring algorithms using Python, Pandas, SciPy.\nBuilt a responsive analytics dashboard (D3.js, Chart.js) allowing brands to visualize impact breakdowns, track improvements, and embed sustainability scores into e-commerce stores.\nCollaborated with domain experts to translate environmental + LCA standards into reusable scoring modules, enabling consistent lifecycle evaluation across product catalogs."
+      },
+      {
+        "position": "Full Stack Developer",
+        "company": "Unit4",
+        "duration": "10/2017 – 06/2019",
+        "description": "Led development of dynamic, high-performance front-end applications using React, Redux, and TypeScript, delivering seamless user experiences across multiple features and product workflows.\nArchitected and implemented scalable RESTful APIs using Node.js, Express, and MongoDB within a microservices-based architecture, ensuring high throughput and maintainability.\nIntegrated GraphQL with Apollo Client/Server, reducing over-fetching, improving data access efficiency, and simplifying client-server communication patterns.\nDeveloped server-rendered React applications using Next.js, improving SEO performance, reducing page load times, and enhancing conversion rates for e-commerce platforms.\nContainerized services with Docker and orchestrated deployments using Kubernetes, streamlining CI/CD, improving system reliability, and enabling predictable scaling across environments.\nEngineered cloud-native solutions on AWS, leveraging Lambda, S3, RDS, and related services to achieve high availability, fault tolerance, and cost-efficient infrastructure operations."
+      },
+      {
+        "position": "Intern Software Developer",
+        "company": "Unit4",
+        "duration": "06/2017 – 10/2017",
+        "description": "Contributed as a key member of the engineering team in building an internal, scalable web application used across multiple departments."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master's Degree in Computer Science",
+        "institution": "Stockholm University",
+        "year": "2011 – 2017"
+      }
+    ],
+    "skillset": [
+      {
+        "category": "AI/Machine Learning",
+        "skills": [
+          "LLMs",
+          "Multi-Agent Systems",
+          "RAG Pipelines",
+          "LangChain",
+          "LangGraph",
+          "MLOps",
+          "RLHF",
+          "DPO",
+          "Model Serving",
+          "Vector Databases",
+          "Feature Engineering",
+          "Ensemble Forecasting (LSTM, ARIMA, Prophet)",
+          "Risk Scoring Systems",
+          "Embeddings",
+          "Knowledge Distillation",
+          "NLP",
+          "Prompt Engineering"
+        ]
+      },
+      {
+        "category": "Backend & Software Engineering",
+        "skills": [
+          "Python",
+          "FastAPI",
+          "Node.js",
+          "Express.js",
+          "Microservices Architecture",
+          "REST",
+          "GraphQL",
+          "WebSocket Services",
+          "API Design Standards",
+          "Feature Flagging",
+          "High-Scale Request Handling",
+          "Caching Strategies",
+          "Server-Rendered Apps (Next.js)",
+          "Authentication & OAuth",
+          "Design Patterns (DDD, CQRS)"
+        ]
+      },
+      {
+        "category": "Data Engineering & Analytics",
+        "skills": [
+          "ETL",
+          "ELT Pipelines",
+          "Data Modeling",
+          "Data Normalization",
+          "Data Cleaning",
+          "Batch Processing",
+          "Streaming Processing",
+          "Apache Kafka",
+          "SQL Optimization",
+          "Statistical Analysis (PCA, correlation, tests)",
+          "Tableau",
+          "PowerBI",
+          "Data Warehouse Design",
+          "Data Lake Architectures",
+          "A/B Testing",
+          "Experimentation Frameworks"
+        ]
+      },
+      {
+        "category": "Cloud, DevOps & Infrastructure",
+        "skills": [
+          "Google Cloud Platform (GKE, Cloud Run, BigQuery, Cloud Storage, Pub/Sub, Vertex AI)",
+          "AWS (Lambda, ECS, Fargate, S3, RDS, Redshift, Glue, SageMaker, Step Functions)",
+          "Kubernetes",
+          "Docker",
+          "CI/CD (GitHub Actions)",
+          "Serverless Architectures",
+          "Terraform",
+          "Autoscaling",
+          "Load Balancing",
+          "Observability (Prometheus, Grafana)"
+        ]
+      }
+    ],
+    "rawText": "\n\nJohn Guerrero  AI/ML Engineer\nsmartai0615 @gmail.com\n \n|\n+46790081784\n \n|\nStockholm, Sweden\n \n|\nlinkedin.com/in/john-guerrero-07551437b\n \ngithub.com/whitenight075\n \nProfile\nI'm an Al Software Engineer with deep experience building production-grade LLM systems, multi-agent pipelines, and large-\nscale data/ML  workflows  across Web3,  finance  and  e-commerce,  sustainability,  and  enterprise  platforms.  Alongside  my ML\nexpertise,  I  bring  strong  software  engineering  fundamentals-designing  full-stack  applications,  microservices  architectures,  and\nhigh-performance APIs that power real-world products. With solid DevOps and cloud experience across AWS and Kubernetes, I\nconsistently deliver scalable, secure, and end-to-end Al solutions that integrate seamlessly into production environments.\nProfessional Experience\nAI/ML Engineer, SoluLab\nSoluLab specializes  in  custom  software,  Web3,  blockchain,  and  Al  solutions  across  various\nindustries like healthcare, finance, and loT\n•Implemented workflow for a Crypto Trading AI Multi-Agent and integrated real-time data \npipeline and building an ensemble forecasting system with LSTM, Prophet, and ARIMA, along \nwith ensemble model for risk assessment.\n01/2023 – Present\nSan Francisco, CA\n•Engineered a end to end RAG-MCP pipeline for a DeFi Risk Agent, enabling real-time \nestimation of Ethereum wallet risk by integrating transaction history, balances, and multi- \nprotocol active positions.\n•Migrated a legacy monolithic web-scraping pipeline to a microservices architecture using AWS \nSNS/SQS, Lambda, ECS, and Fargate-significantly improving reliability, scaling behavior, and \nparallel ingestion throughput.\n•Utilized LangChain, LangGraph, and several LLMs to power agent reasoning, planning, and \ntool execution, ensuring robustness and adaptability under changing conditions.\n•Built a reinforcement learning trading environment using OpenAI Gym, applying Direct \nPreference Optimization (DPO) to refine model behavior and boost decisionaccuracy in LLM-\ndriven agents.\n•Evaluated RAG pipeline performance using RAGAS and implemented A/B testing for online \nevaluation, enabling continuous improvement of retrieval quality and generation fidelity.\n•Leveraged AWS SageMaker, Lambda, and Step Functions for scalable ML training and \ndeployment, ensuring reproducible workflows, low-latency inference, and automated pipeline \norchestration.\nData Engineer / Software Engineer, Andersen Lab\nAndersen Lab provides custom software development with a focus on Al, data engineering, and \ncloud-native applications for industries like finance, healthcare, and logistics.\n•Architected and implemented large-scale ETL/ELT data pipelines for ingestion, transformation, \nand enrichment of multi-source datasets, powering downstream machine learning models and \nanalytics platforms.\n08/2020 – 12/2022\nLondon, United Kingdom\n•Designed scalable data storage and processing solutions using AWS EC2, RDS, Redshift, S3, and \nGlue, ensuring high availability, cost efficiency, and optimized query performance for batch and \nstreaming workloads.\n•Developed and optimized RESTful APIs in Python, enabling seamless interaction between \nmicroservices, data pipelines, and real-time processing systems.\n•Collaborated closely with data scientists to productionize machine learning models, building \nfeature pipelines, model-serving endpoints, and monitoring workflows to support data-driven \ndecision-making.\n•Led legacy system modernization efforts, migrating on-premise data infrastructure to cloud-\nnative architectures using Docker and Kubernetes for containerization, orchestration, and \nautoscaling.\n•Implemented advanced data analytics and statistical techniques (PCA, feature normalization, \ncorrelation analysis, hypothesis testing) to support dimensionality reduction, anomaly detection, \nand feature engineering in ML workflows.\n•Built interactive data visualizations and dashboards using Tableau, Power BI, and Python \n(Plotly/ Matplotlib), translating complex data patterns into actionable insights for business \nstakeholders.\n\nSoftware Engineer, Archr\n•Led  the  development  of Archr's sustainability  scoring  SaaS  platform end-to-end,  building  a\nproduction UI (React.js) and backend services (Python/Fast API) used by commercial brands.\n•Designed  a  distributed  microservices  architecture  using  Docker Kubernetes,  enabling  scalable\ningestion of product data and parallel execution of sustainability scoring models.\n07/2019 – 07/2020\nStockholm, Sweden\n•Implemented CI/CD pipelines  using  Cloud Build + GKE,  reducing  deployment  friction  and\naccelerating feature delivery velocity.\n•Integrated core GCP services for production workloads:\n•Cloud Storage as primary data lake for ingestion artifacts and LCA datasets\n•Cloud Functions for compute triggers and event-based batch workflows\n•Cloud SQL (PostgreSQL) for transactional storage and metadata retrieval\n•Developed a full sustainability scoring pipeline with normalization logic, LCA-based metrics, and\ninternal scoring algorithms using Python, Pandas, SciPy.\n•Built  a  responsive  analytics  dashboard  (D3.js,  Chart.js)  allowing  brands  to  visualize  impact\nbreakdowns, track improvements, and embed sustainability scores into e-commerce stores.\n•Collaborated  with  domain  experts  to  translate  environmental  + LCA standards  into  reusable\nscoring modules, enabling consistent lifecycle evaluation across product catalogs.\nFull Stack Developer, Unit4\n•Led development of dynamic, high-performance front-end applications using React, Redux, and\nTypeScript, delivering seamless user experiences across multiple features and product workflows.\n•Architected  and  implemented  scalable RESTful APIs  using  Node.js,  Express,  and  MongoDB\nwithin a microservices-based architecture, ensuring high throughput and maintainability.\n10/2017 – 06/2019\nSolna, Sweden\n•Integrated GraphQL with Apollo Client/Server, reducing over-fetching, improving data access\nefficiency, and simplifying client-server communication patterns.\n•Developed  server-rendered  React  applications  using Next.js,  improving SEO performance,\nreducing page load times, and enhancing conversion rates for e-commerce platforms.\n•Containerized  services  with Docker and  orchestrated  deployments  using Kubernetes,\nstreamlining CI/CD,  improving  system  reliability,  and  enabling  predictable  scaling  across.\nenvironments.\n•Engineered cloud-native solutions on AWS, leveraging Lambda, S3, RDS, and related services to\nachieve high availability, fault tolerance, and cost-efficient infrastructure operations.\nIntern Software Developer, Unit4\n•Contributed as a key member of the engineering team in building an internal, scalable web \napplication used across multiple departments.\n06/2017 – 10/2017\nEducation\nMaster's Degree in Computer Science, Stockholm University2011 – 2017\nSkills\nAI/Machine Learning\nLLMs Multi-Agent Systems RAG Pipelines LangChain / LangGraph MLOps RLHF/ DPO Model Serving. Vector Databases Feature \nEngineering Ensemble Forecasting (LSTM, ARIMA, Prophet) Risk Scoring Systems Embeddings Knowledge Distillation NLP. \nPrompt Engineering\nBackend & Software Engineering\nPython FastAPI Node.js Express.js Microservices Architecture REST/ GraphQL WebSocket Services API Design Standards Feature \nFlagging High-Scale Request Handling Caching Strategies Server-Rendered Apps (Next.js) Authentication & OAuth Design \nPatterns (DDD, CQRS suggested but unstated)\nData Engineering & Analytics\nETL/ ELT Pipelines Data Modeling Data Normalization. & Cleaning Batch & Streaming Processing Apache Kafka (assumed from \nrole fit) SQL Optimization Statistical Analysis (PCA, correlation, tests) Tableau PowerBI. Data Warehouse Design Data Lake \nArchitectures A/ B Testing Experimentation Frameworks\nCloud, DevOps & Infrastructure\n•Google Cloud Platform (GKE, Cloud Run, BigQuery, Cloud Storage, Pub/ Sub, Vertex Al for model deployment)\n•AWS (Lambda, ECS, Fargate, S3, RDS, Redshift, Glue, SageMaker, Step Functions) Kubernetes Docker CI/ CD (GitHub Actions) \nServerless Architectures Terraform (infra-as-code) Autoscaling & Load Balancing.\nObservability (Prometheus, Grafana)",
+    "createdAt": "2026-04-18T18:06:18.259Z",
+    "updatedAt": "2026-04-18T18:19:57.900Z"
+  }
+]

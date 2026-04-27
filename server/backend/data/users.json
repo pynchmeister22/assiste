@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "934865b6-16db-4f10-afde-7ae14dc0dca4",
+    "name": "moon",
+    "passwordHash": "$2a$12$u3YmUXtdODfJOeMgA1ZYHuzsv6kWoxZGedVyxaDWWdH1gm57EWmMC",
+    "email": null,
+    "openaiApiKey": null,
+    "isAdmin": true,
+    "isActive": true,
+    "createdAt": "2026-04-18T15:56:26.455Z",
+    "updatedAt": "2026-04-18T15:56:26.455Z"
+  }
+]

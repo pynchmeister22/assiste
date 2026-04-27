@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    /* This will be injected as a style tag */
+  </style>
+</head>
+<body>
+  <div id="ntro-assistant-root" style="display: none;">
+    <div class="ntro-overlay">
+      <div class="ntro-container">
+        <!-- Left Panel - AI Answers -->
+        <div class="ntro-left-panel">
+          <div class="ntro-header">
+            <div class="ntro-logo">
+              <div class="ntro-logo-icon">M</div>
+              <span class="ntro-logo-text">Mongtro</span>
+            </div>
+            <div class="ntro-controls">
+              <button class="ntro-control-btn" id="closeBtn" title="Close">×</button>
+            </div>
+          </div>
+          
+          <div class="ntro-content">
+            <div class="ntro-question-section" id="questionSection">
+              <div class="ntro-question-label">Chat History:</div>
+              <div class="ntro-question-text" id="chatHistory">Waiting for conversation...</div>
+            </div>
+            
+            <div class="ntro-answer-section" id="answerSection">
+              <div class="ntro-answer-label">Answer:</div>
+              <div class="ntro-answer-text" id="aiAnswer">The answer will appear here...</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Panel - Captions -->
+        <div class="ntro-right-panel">
+          <div class="ntro-tabs">
+            <button class="ntro-tab active" data-tab="transcription">Transcription</button>
+            <button class="ntro-tab" data-tab="topics">Topics</button>
+          </div>
+          
+          <div class="ntro-transcription-content" id="transcriptionContent">
+            <div class="ntro-transcription-text" id="transcriptionText">
+              Captions will appear here...
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Input Bar -->
+        <div class="ntro-input-bar">
+          <button class="ntro-icon-btn" id="cameraBtn" title="Camera">📷</button>
+          <input type="text" class="ntro-input" id="quickPrompt" placeholder="Type or OCR quick prompt">
+          <button class="ntro-help-btn" id="helpBtn">
+            Help Me!
+            <span class="ntro-help-hint">(Enter or Space)</span>
+          </button>
+          <label class="ntro-checkbox-label">
+            <input type="checkbox" id="hideConversation">
+            Hide my conversation
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
